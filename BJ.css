@@ -1,0 +1,354 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.playarea{
+    width: 900px;
+    height: 678px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    border: 2px solid darkgreen;
+}
+
+.dealerdeck, .playerdeck{
+    height: 191px;
+    width: 164px;
+    margin: 0 auto;
+}
+
+#dealerPoints, #playerPoints{
+    font-size: 25px;
+    font-weight: 700;
+    color: darkmagenta;
+    height: 152px;
+}
+
+.card{
+    background-image: url(cards.png);
+    float: left;
+    height: 123px;
+    width: 79px;
+}
+
+.reverse{
+    background-position: -158px -492px !important;;
+}
+
+#dealerPoints{
+    visibility: hidden;
+}
+
+.message{
+    font-family:  'Cinzel', serif, Arial, sans-serif;
+    color: red;
+    font-size: 25px;
+    margin-top: 50px;
+    height: 60px;
+    text-transform: uppercase;
+}
+
+nav {
+    width: 960px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    font-family:  'Cinzel', serif, Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    background-color: darkgreen;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+.buttons{
+    width: 150px;
+    margin: 20px auto 0 auto;
+}
+
+.btn {
+    border: 1px solid #466995;
+    border-radius: 15px;
+    background: orangered;
+    font-family:  'Cinzel', serif, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#hit {
+    color: navajowhite;
+}
+
+#stand {
+    color: darkred;
+}
+
+.btn#hit:hover {
+    background: #C0D6DF;
+    color: black;
+}
+
+.btn#stand:hover {
+    background: #C0D6DF;
+    color: black;
+}
+
+.btn#hit:active {
+    background: mediumvioletred;
+}
+
+.btn#stand:active {
+    background: mediumvioletred;
+}
+
+.btn#deal:hover {
+    background: #C0D6DF;
+    color: black;
+}
+
+.btn#deal:active {
+    background: mediumvioletred;
+}
+
+/* Cards */
+
+.ace-c{
+    background-position: 0 0;
+}
+
+.two-c{
+    background-position: -79px 0;
+}
+
+.three-c{
+    background-position: -158px 0;
+}
+
+.four-c{
+    background-position: -237px 0;
+}
+
+.five-c{
+    background-position: -316px 0;
+}
+
+.six-c{
+    background-position: -395px 0;
+}
+
+.seven-c{
+    background-position: -474px 0;
+}
+
+.eight-c{
+    background-position: -553px 0;
+}
+
+.nine-c{
+    background-position: -632px 0;
+}
+
+.ten-c{
+    background-position: -711px 0;
+}
+
+.jack-c{
+    background-position: -790px 0;
+}
+
+.queen-c{
+    background-position: -869px 0;
+}
+
+.king-c{
+    background-position: -948px 0;
+}
+
+.ace-d{
+    background-position: 0 -123px;
+}
+
+.two-d{
+    background-position: -79px -123px;
+}
+
+.three-d{
+    background-position: -158px -123px;
+}
+
+.four-d{
+    background-position: -237px -123px;
+}
+
+.five-d{
+    background-position: -316px -123px;
+}
+
+.six-d{
+    background-position: -395px -123px;
+}
+
+.seven-d{
+    background-position: -474px -123px;
+}
+
+.eight-d{
+    background-position: -553px -123px;
+}
+
+.nine-d{
+    background-position: -632px -123px;
+}
+
+.ten-d{
+    background-position: -711px -123px;
+}
+
+.jack-d{
+    background-position: -790px -123px;
+}
+
+.queen-d{
+    background-position: -869px -123px;
+}
+
+.king-d{
+    background-position: -948px -123px;
+}
+
+.ace-h{
+    background-position: 0 -246px;
+}
+
+.two-h{
+    background-position: -79px -246px;
+}
+
+.three-h{
+    background-position: -158px -246px;
+}
+
+.four-h{
+    background-position: -237px -246px;
+}
+
+.five-h{
+    background-position: -316px -246px;
+}
+
+.six-h{
+    background-position: -395px -246px;
+}
+
+.seven-h{
+    background-position: -474px -246px;
+}
+
+.eight-h{
+    background-position: -553px -246px;
+}
+
+.nine-h{
+    background-position: -632px -246px;
+}
+
+.ten-h{
+    background-position: -711px -246px;
+}
+
+.jack-h{
+    background-position: -790px -246px;
+}
+
+.queen-h{
+    background-position: -869px -246px;
+}
+
+.king-h{
+    background-position: -948px -246px;
+}
+
+.ace-s{
+    background-position: 0 -369px;
+}
+
+.two-s{
+    background-position: -79px -369px;
+}
+
+.three-s{
+    background-position: -158px -369px;
+}
+
+.four-s{
+    background-position: -237px -369px;
+}
+
+.five-s{
+    background-position: -316px -369px;
+}
+
+.six-s{
+    background-position: -395px -369px;
+}
+
+.seven-s{
+    background-position: -474px -369px;
+}
+
+.eight-s{
+    background-position: -553px -369px;
+}
+
+.nine-s{
+    background-position: -632px -369px;
+}
+
+.ten-s{
+    background-position: -711px -369px;
+}
+
+.jack-s{
+    background-position: -790px -369px;
+}
+
+.queen-s{
+    background-position: -869px -369px;
+}
+
+.king-s{
+    background-position: -948px -369px;
+}

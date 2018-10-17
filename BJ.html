@@ -1,0 +1,66 @@
+<!DOCUMENT html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
+        <link rel='stylesheet' type="text/css" href='BJ.css'/>
+        <title>Blackjack Game</title>
+    </head>
+
+    <body>
+     <nav>
+        <a href="https://en.wikipedia.org/wiki/Blackjack" target="_blank">Rules of the Game</a>
+     </nav>
+     <div class='playarea'>
+
+        <div>
+            <h1>Blackjack Game</h1>
+        </div>
+
+            <div class=dealerdeck>
+                <h3>Dealer's Hand</h3>
+
+                <div class='card'></div>
+
+                <div class='card reverse slot2'></div>
+
+                <div class='new-cards'></div>
+
+                <div id='dealerPoints'></div>
+
+            </div>
+
+
+     <div class=playerdeck>
+            <h3>Player's Hand</h3>
+
+         <div class='card'></div>
+
+         <div class='card'></div>
+
+         <div class='new'></div>
+
+         <div id='playerPoints'></div>
+
+     </div>
+
+     <div class='buttons'>
+         <div class='btn' id='hit'>Hit</div>
+         <div class='btn' id='stand'>Stand</div>
+     </div>
+
+     <div id='message' class='message'></div>
+
+     </div>
+
+     <!-- not sure how to properly setup IDE in WebStorm => added external jQuery library below-->
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+     <script src='BJmain.js'></script>
+
+    </body>
+
+</html>
+
